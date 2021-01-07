@@ -1,5 +1,5 @@
 # SocialBee
-### AOOP Project Proposal Document – Fall 2020
+### AOOP Project - CSE 2118(A) – Fall 2020 
 
 
 > Student’s Name	: Ahmed Shabab Noor <br>
