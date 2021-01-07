@@ -1,7 +1,7 @@
 # SocialBee
-### AOOP Project Proposal Document – Fall 2020
+#### AOOP Project Proposal Document – Fall 2020
 
-> Student’s Name	: Ahmed Shabab Noor
+> Student’s Name	: Ahmed Shabab Noor 
 > Student’s ID		: 011 193 024
 > Project Name	: SocialBee
 
