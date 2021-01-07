@@ -1,7 +1,7 @@
 # SocialBee
 ### AOOP Project – CSE 2118(A) – Fall 2020 
-#### Advanced Object Oriented Programming Lab
-
+#### Advanced Object Oriented Programming Laboratory
+<br>
 
 > Student’s Name	: Ahmed Shabab Noor <br>
 > Student’s ID		: 011 193 024 <br>
@@ -17,7 +17,7 @@ Here, you can create accounts where you can share status updates and/or upload p
 2.	You can post status updates and/or upload photos to your timeline/feed.
 3.	Instant messaging with your friends/followers with at least the basic chat features.
 
-(this project will include a `GUI interface`, `Java Thread` and `Socket`)
+(This project will include a `GUI interface`, `Java Thread` and `Socket`)
 
 **Usefulness/Motivation:** Today we live in an age where social media has become a huge part of our lives. It is what keeps us connected from far and wide. Especially during this pandemic, various social media platforms have impacted our lives massively and helped us bridge the gap of not being there physically.
 
