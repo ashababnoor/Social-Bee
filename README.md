@@ -1,12 +1,9 @@
 # SocialBee
 ### AOOP Project Proposal Document – Fall 2020
 
-
-
-
-Student’s Name	: Ahmed Shabab Noor
-Student’s ID		: 011 193 024
-Project Name	: SocialBee
+> Student’s Name	: Ahmed Shabab Noor
+> Student’s ID		: 011 193 024
+> Project Name	: SocialBee
 
 Project Description: This project is a micro-blogging platform. It is sort of like a simplified version of the popular micro-blogging platforms Twitter and Instagram.
 Here, you can create accounts where you can share status updates and/or upload photos and message your friends/followers.
