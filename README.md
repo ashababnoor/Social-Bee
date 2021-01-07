@@ -1,4 +1,4 @@
-## SocialBee
+# SocialBee
 ### AOOP Project Proposal Document – Fall 2020
 
 
