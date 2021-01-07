@@ -14,8 +14,9 @@ Here, you can create accounts where you can share status updates and/or upload p
 **Features Description:** As it is a simplified micro-blogging platform, the features are as follows:
 1.	You can create accounts and log-in to your account.
 2.	You can post status updates and/or upload photos to your timeline/feed.
-3.	Instant messaging with your friends/followers with at least the basic chat features. <br>
-(this project will include a `GUI interface` , `Java Thread` and `Socket`)
+3.	Instant messaging with your friends/followers with at least the basic chat features.
+
+(this project will include a `GUI interface`, `Java Thread` and `Socket`)
 
 **Usefulness/Motivation:** Today we live in an age where social media has become a huge part of our lives. It is what keeps us connected from far and wide. Especially during this pandemic, various social media platforms have impacted our lives massively and helped us bridge the gap of not being there physically.
 
