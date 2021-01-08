@@ -1,5 +1,4 @@
-![#000000](https://via.placeholder.com/2000x300/231F20/FADB1E?text=SocialBee)
-
+![Social Bee](resources/sb-header.png)
 
 # SocialBee
 ### AOOP Project – CSE 2118(A) – Fall 2020 
