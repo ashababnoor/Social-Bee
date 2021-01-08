@@ -1,5 +1,4 @@
-<p style="background-color:red; height:100px"> hello </p> 
-<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+![#000000](https://via.placeholder.com/2000x300/231F20/FADB1E?text=SocialBee)
 
 
 # SocialBee
