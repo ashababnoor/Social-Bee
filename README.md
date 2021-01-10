@@ -1,6 +1,5 @@
-![Social Bee](resources/sb-header.png)
+# ![Social Bee](resources/sb-header.png)
 
-# SocialBee
 ### AOOP Project – CSE 2118(A) – Fall 2020 
 #### Advanced Object Oriented Programming Laboratory
 <br>
