@@ -1,0 +1,25 @@
+/* @font-face {
+   font-family: RobotoSlab;
+   src: url(resources/fonts/roboto-slab/RobotoSlab-Regular.tff);
+}
+@font-face {
+   font-family: Roboto;
+   src: url(resources/fonts/Roboto-Regular.tff);
+}
+.text-roboto {
+   -fx-font-family: "Roboto";
+   -fx-font-style: inherit;
+}
+.text-slab {
+   -fx-font-family: "RobotoSlab";
+   -fx-font-style: inherit;
+}*/
+.left-box{
+    -fx-background-color: #222222;
+}
+.right-box{
+    -fx-background-color: #263238;
+}
+.panel-light{
+    -fx-text-fill: #dfede6;
+}
