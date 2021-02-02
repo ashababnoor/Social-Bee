@@ -35,6 +35,7 @@
 .out-text-area{
     -fx-background-color: #dfede6;
     text-area-background: #dfede6;
+    -fx-alignment: center-right;
 }
 .send-text-area{
     -fx-background-color: white;

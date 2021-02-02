@@ -8,14 +8,15 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="425.0" styleClass="transparent-background" stylesheets="@chatPage.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.IncomingChatBubble">
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="425.0" styleClass="transparent-background" stylesheets="@chatPage.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fx:id="userPic" fitHeight="65.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="65.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../resources/users/Shabab.jpg" />
          </image>
       </ImageView>
-      <TextArea fx:id="inChatBubble" editable="false" prefHeight="75.0" prefWidth="325.0" stylesheets="@chatPage.css" text="hey there, how are you?&#10;I'm good. Thanks.&#10;What are you up to?" wrapText="true">
+      <TextArea fx:id="incomingTextField" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="75.0" prefWidth="324.0" stylesheets="@chatPage.css" text="fdkfdjfkdjfkdjfdkjfkdjfkdjkddkdkjfdkfdkjfdkjfdkfdjkfjdkfjdkfdjkjdkfdkjfdkfdkfjdkjdkjfdkjfdkfjkdjfdkfjdkfjdkfkdjfdkjfdkjfdkfjdkfjkdjfkdjdfdfdfdfdf" wrapText="true">
          <HBox.margin>
             <Insets left="15.0" />
          </HBox.margin>
