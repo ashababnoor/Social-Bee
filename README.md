@@ -25,3 +25,6 @@ Here, you can create accounts where you can share status updates and/or upload p
 Social media will continue to be a big part of our lives in the coming years. So, I thought it would be a good experience to undergo how a social media/micro-blogging platform is made and experience it first-hand through a project.
 
 While it is certainly an ambitious project to say the very least, I believe it can help me learn a lot and brush up my coding skills as well as help me understand how to code/create projects with scale in mind. That is why I’ve chosen this to be my project. 
+
+Login Page
+# ![Social Bee - Login](resources/Login-Page.png)
