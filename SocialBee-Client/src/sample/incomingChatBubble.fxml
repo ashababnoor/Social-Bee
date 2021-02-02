@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="425.0" styleClass="transparent-background" stylesheets="@chatPage.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.IncomingChatBubble">
+   <children>
+      <ImageView fitHeight="65.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/users/Shabab.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="inChatBubble" editable="false" prefHeight="75.0" prefWidth="324.0" stylesheets="@chatPage.css" text="hey there, how are you?&#10;Im good&#10;Wyd tho?" wrapText="true">
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+         <font>
+            <Font size="14.0" />
+         </font>
+         <styleClass>
+            <String fx:value="no-scroll" />
+            <String fx:value="incoming-bubble" />
+         </styleClass>
+      </TextArea>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</HBox>

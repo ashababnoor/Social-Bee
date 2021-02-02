@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1116.0" type="BorderPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChatPageController">
+   <left>
+      <HBox prefHeight="735.0" prefWidth="407.0" stylesheets="@chatPage.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="735.0" prefWidth="104.0" styleClass="dark-background" stylesheets="@chatPage.css">
+               <children>
+                  <ImageView fitHeight="59.0" fitWidth="55.0" layoutX="28.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/images/icon-bee-01.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets top="35.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Pane prefHeight="150.0" prefWidth="92.0" />
+                  <ImageView fitHeight="59.0" fitWidth="50.0" onMouseClicked="#showChatsAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons/icons8-chat-80.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="59.0" fitWidth="50.0" layoutX="28.0" layoutY="323.0" onMouseClicked="#showFriendsAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons/icons8-user-group-90.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="59.0" fitWidth="50.0" layoutX="28.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons/icons8-person-80.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="59.0" fitWidth="50.0" layoutX="28.0" layoutY="405.0" onMouseClicked="#settingsAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons/icons8-settings-96.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Pane prefHeight="150.0" prefWidth="92.0" />
+                  <ImageView fitHeight="59.0" fitWidth="50.0" layoutX="28.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons/icons8-export-80.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="35.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="315.0" styleClass="dark-blueish-grey-background" stylesheets="@chatPage.css">
+               <children>
+                  <HBox alignment="CENTER" fillHeight="false" prefHeight="58.0" prefWidth="286.0" stylesheets="@chatPage.css">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <children>
+                        <ImageView fitHeight="31.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/icons8-search-96.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="15.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <TextField prefHeight="39.0" prefWidth="196.0" promptText="Search here" styleClass="transparent-background" stylesheets="@chatPage.css">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <styleClass>
+                        <String fx:value="dark-background" />
+                        <String fx:value="radius" />
+                     </styleClass>
+                  </HBox>
+                  <Pane prefHeight="2.0" prefWidth="315.0" styleClass="dark-background" stylesheets="@chatPage.css">
+                     <VBox.margin>
+                        <Insets top="35.0" />
+                     </VBox.margin>
+                  </Pane>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </left>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="137.0" prefWidth="709.0" styleClass="light-blueish-grey-background" stylesheets="@chatPage.css">
+               <children>
+                  <ImageView fx:id="currChatImage" fitHeight="65.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@../resources/users/Shabab.jpg" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" spacing="5.0">
+                     <children>
+                        <Label fx:id="currChatName" prefHeight="38.0" prefWidth="308.0" text="Name">
+                           <font>
+                              <Font name="System Bold" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="currChatLastSeen" layoutX="10.0" layoutY="10.0" prefHeight="38.0" prefWidth="308.0" text="Last online: 5 Hours ago">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Pane prefHeight="66.0" prefWidth="231.0" />
+                  <Circle fx:id="onlineStatusCircle" fill="#55c530" radius="15.0" stroke="#ffffff00" strokeType="INSIDE" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </HBox>
+            <VBox alignment="TOP_CENTER" prefHeight="519.0" prefWidth="678.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" styleClass="light-blueish-grey-background" stylesheets="@chatPage.css">
+               <children>
+                  <TextArea fx:id="outboxField" onKeyPressed="#checkCharAction" prefHeight="71.0" prefWidth="618.0" promptText="Type something..." stylesheets="@chatPage.css">
+                     <styleClass>
+                        <String fx:value="wh" />
+                        <String fx:value="send-text-area" />
+                     </styleClass>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </TextArea>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" onMouseClicked="#sendAction" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons/right-arrow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</fx:root>

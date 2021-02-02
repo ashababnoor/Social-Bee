@@ -1,0 +1,42 @@
+.dark-background{
+    -fx-background-color: #263238;
+}
+.dark-blueish-grey-background{
+    -fx-background-color: #37474f;
+}
+.light-blueish-grey-background{
+    -fx-background-color: #cfd8dc;
+}
+.transparent-background{
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+.radius{
+    -fx-background-radius: 100px;
+}
+.no-scroll{
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+    //-fx-border-radius: 15 15 15 15;
+    //-fx-background-radius: 15 15 15 15;
+}
+.incoming-bubble{
+    -fx-background-color: #74cbd1;
+}
+.text-area {
+    -fx-background-insets: 0;
+    text-area-background: #74cbd1;
+
+}
+.text-area .content {
+    -fx-background-color: text-area-background ;
+    -fx-text-box-border: transparent;
+    -fx-border-radius: 100px;
+}
+.out-text-area{
+    -fx-background-color: #dfede6;
+    text-area-background: #dfede6;
+}
+.send-text-area{
+    -fx-background-color: white;
+    text-area-background: white;
+}
