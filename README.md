@@ -26,5 +26,5 @@ Social media will continue to be a big part of our lives in the coming years. So
 
 While it is certainly an ambitious project to say the very least, I believe it can help me learn a lot and brush up my coding skills as well as help me understand how to code/create projects with scale in mind. That is why I’ve chosen this to be my project. 
 
-Login Page
-# ![Social Bee - Login](resources/Login-Page.png)
+#### Login Page
+# ![Social Bee - Login](resources/Login-Page.jpg)
